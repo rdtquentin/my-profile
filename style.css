@@ -1,0 +1,129 @@
+/* Colours and fonts */
+
+body {
+	background: #E6E6E6;
+	color: #EEEEEE;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+} 
+
+	
+h1, h2 {
+	font-family: 'Quicksand', sans-serif;
+	color: #D7B701;
+	font-size: 500;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2{
+	font-size: 27px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	color: #176B87;
+	font-weight: bolder;
+	font-size: 20px;
+}
+a:hover {
+	font-size: 22px;
+	color: #64CCC5;
+}
+
+
+
+
+
+/* Design with class */
+
+.contain {
+	width: 1000px;
+    margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.contain {
+		width: 400px;
+	}
+}
+
+@media (max-width: 700px) {
+	.contain {
+		width: 600px;
+	}
+}
+
+
+.card-blue {
+	border: 3px solid#D7B701;
+    background: #053B50;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.card-blue:hover {
+	box-shadow: rgba(0, 0, 0, 0.40) 0px 10px 25px;
+}
+
+#photo {
+	width: 150px;
+    border: 5px solid whitexs;
+    border-radius: 25px;
+}
+
+.btn-green {
+	background-color: #176B87;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 25px;
+	margin-top: 30px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 50px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+
+.list-inline i:hover{
+	font-size: 33px;
+}
+
+#intro p {
+	margin: 40px;
+}
+  
+
+.box {
+	columns: 2;
+}
+
+
+hr {
+border: 1px solid #E6E6E6;
+margin: 30px;
+}
+
+
+
+
+
+
+
